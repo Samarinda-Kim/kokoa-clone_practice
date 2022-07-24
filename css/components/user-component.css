@@ -1,0 +1,135 @@
+.user-component {
+  justify-content: space-between;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.user-component__column {
+  display: flex;
+}
+
+.user-component__avartar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.user-component__avartar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avartar--sl {
+  width: 120px;
+  height: 120px;
+  margin-right: -5px;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+.user-component__avartar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-component__avartar--ss {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.user-component__subtitle {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column:last-child {
+  display: flex;
+  color: rgba(0, 0, 0, 0.5);
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.user-component__sideinfo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.user-component__sideinfo-time {
+  margin-top: -20px;
+}
+
+.user-component__sideinfo,
+.user-component__sideinfo-count {
+  align-items: flex-end;
+  margin-top: 3px;
+}
+
+.user-component__column__find-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.fa-address-book {
+  margin-bottom: -18px;
+}
+
+.user-component__column__find-menu__text {
+  margin-top: 30px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: bold;
+}
+
+.user-component__info {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.fa-info-circle {
+  margin-left: 10px;
+  color: tomato;
+}
+
+.user-component__row-space {
+  padding: 10px 0px;
+}
+
+.fa-comment-alt {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.user-component__column__more-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.user-component__column__more-menu__text {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: normal;
+}

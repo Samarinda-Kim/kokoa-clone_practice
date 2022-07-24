@@ -1,0 +1,30 @@
+.settings-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.settings-list__upper {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 30px;
+}
+
+.settings__setting {
+  padding: 20px 0px;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.settings__setting i {
+  opacity: 0.6;
+}
+
+.settings__setting-column:nth-child(2) {
+  opacity: 0.4;
+}
+
+.settings__setting span {
+  position: absolute;
+  left: 50px;
+}

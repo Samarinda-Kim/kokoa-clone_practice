@@ -1,0 +1,122 @@
+.find-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.recommended-friends {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.recommended-friends__title,
+.open-chat__header__title,
+.open-chat__header__side-info {
+  padding: 15px 0px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.recommended-friends__text {
+  padding: 100px 0px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.open-chat__contents {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.open-chat__contents:last-child {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: none;
+  }
+
+.open-chat__contents__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.open-chat__contents__column span:first-child {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.open-chat__contents__column span:nth-child(2) {
+  margin-top: 10px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.open-chat__contents__column__info {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-chat__contents__column__info span:last-child {
+  color: rgb(238, 16, 146);
+}
+
+.open-chat__contents__column__info span:nth-child(2) {
+  margin: 0px 3px;
+}
+
+.open-chat__contents__column__photo {
+    position: relative;
+}
+
+.open-chat__contents__column__photo__heart {
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    font-size: 11px;
+    position: absolute;
+    left: 70px;
+    top: 93px;
+    color: white;
+}
+
+.open-chat__contents__column__photo__heart span:last-child {
+    color: white;
+    font-size: 12px;
+}
+
+@keyframes heartBeatAnimation {
+    0% {
+        color: white;
+        transform: none;
+    }
+    50% {
+        color: red;
+        transform: scale(1.5);
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+}
+
+.open-chat__contents__column__photo__heart:hover i {
+    will-change: transform;
+    animation: heartBeatAnimation 1s linear infinite;
+}

@@ -1,0 +1,26 @@
+.more-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.suggestions__title {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 0px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-quote-right {
+  background-color: #FAE100;
+  padding: 10px;
+  color: white;
+  border-radius: 15%;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}

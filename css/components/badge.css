@@ -1,0 +1,85 @@
+@keyframes badgeAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.badge {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  animation: badgeAnimation 3s ease-in-out infinite;
+}
+
+.list_badge {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  position: absolute;
+  top: 5px;
+  margin: 0px 40px;
+  animation: badgeAnimation 3s ease-in-out infinite;
+}
+
+.fa-cog {
+  position: relative;
+}
+
+@keyframes alarmAnimation {
+  0%,
+  50%,
+  70%,
+  100% {
+    background-color: tomato;
+  }
+  40%,
+  60% {
+    background-color: white;
+  }
+}
+
+.header-alarm {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  top: -5px;
+  animation: alarmAnimation 3s ease-in-out infinite;
+}
+
+.header-alarm__user-component {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  left: 60px;
+  top: -10px;
+  animation: alarmAnimation 3s ease-in-out infinite;
+}
+
+.alarm__parent {
+  position: relative;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+        <!-- icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span>
+          <a href="settings.html">
+            <i class="fas fa-cog fa-lg">
+              <span class="header-alarm"> </span>
+            </i>
+          </a>
+        </span>
+      </div>
+    </header>
+
+    <main class="find-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <div class="user-component__column__find-menu">
+            <i class="fas fa-qrcode fa-2x"></i>
+            <span class="user-component__column__find-menu__text">QR Code</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__column__find-menu">
+            <i class="far fa-address-book fa-2x"></i>
+            <span class="user-component__column__find-menu__text"
+              >Add by <br />Contacts</span
+            >
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__column__find-menu">
+            <i class="fas fa-fingerprint fa-2x"></i>
+            <span class="user-component__column__find-menu__text"
+              >Add by ID</span
+            >
+          </div>
+        </div>
+        <div class="user-component__column">
+          <div class="user-component__column__find-menu">
+            <i class="far fa-envelope fa-2x"></i>
+            <span class="user-component__column__find-menu__text">Invite</span>
+          </div>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <span class="recommended-friends__title">Recommended Friends</span>
+        <span class="recommended-friends__text"
+          >You have no recommanded friends</span
+        >
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <span class="open-chat__header__title">Open Chat</span>
+          <div class="open-chat__header__side-info">
+            <span class="open-chat__header__side-info__text"
+              >Go to Openchat Home</span
+            >
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+        <div class="open-chat__contents">
+          <div class="open-chat__contents__column">
+            <span class="open-chat__contents__column__title">#BTS</span>
+            <span class="open-chat__contents__column__tags"
+              >#BTS#ARMY#FRIENDS</span
+            >
+            <div class="open-chat__contents__column__info">
+              <img
+                src="https://avatars.githubusercontent.com/u/3612017"
+                class="user-component__avartar user-component__avartar--ss"
+              />
+              <span>802 members</span>
+              <span>|</span>
+              <span>Active</span>
+            </div>
+          </div>
+          <div class="open-chat__contents__column">
+            <div class="open-chat__contents__column__photo">
+              <img
+                src="https://avatars.githubusercontent.com/u/3612017"
+                class="user-component__avartar user-component__avartar--sl"
+              />
+              <div class="open-chat__contents__column__photo__heart">
+                <i class="fas fa-heart"></i>
+                <span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="open-chat__contents">
+          <div class="open-chat__contents__column">
+            <span class="open-chat__contents__column__title">#BTS</span>
+            <span class="open-chat__contents__column__tags"
+              >#BTS#ARMY#FRIENDS</span
+            >
+            <div class="open-chat__contents__column__info">
+              <img
+                src="https://avatars.githubusercontent.com/u/3612017"
+                class="user-component__avartar user-component__avartar--ss"
+              />
+              <span>802 members</span>
+              <span>|</span>
+              <span>Active</span>
+            </div>
+          </div>
+          <div class="open-chat__contents__column">
+            <div class="open-chat__contents__column__photo">
+              <img
+                src="https://avatars.githubusercontent.com/u/3612017"
+                class="user-component__avartar user-component__avartar--sl"
+              />
+              <div class="open-chat__contents__column__photo__heart">
+                <i class="fas fa-heart"></i>
+                <span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">5</span>
+            <i class="far fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__alarm"> </span>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
